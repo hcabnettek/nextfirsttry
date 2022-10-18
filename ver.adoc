@@ -1,0 +1,17 @@
+:Author:    Chris
+:Email:     <kettenbach@gmail.com>
+:Date:      date
+:Revision:  1.1.1
+
+.Optional Title
+[source,javascript]
+----
+# *Source* block
+# Use: highlight code listings
+console.log('React and Next')
+----
+
+
+Author is {author}
+
+Version is {revision}

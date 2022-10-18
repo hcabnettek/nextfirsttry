@@ -10,25 +10,17 @@ phases:
       - npm install -g yarn
       - yarn bin
       - yarn
-      - yarn run lint
-      - yarn build
 
   build:
     commands:
       # run build script
-      - rm -rf dist/
-      - npx nx build
-
-  post_build:
-    commands:
-      - mv -f dist/apps/shell/ ./public
-      - mv -f dist/apps/{cart,about,shop} ./public
+      - yarn build
 
 artifacts:
   # include all files required to run application
   # notably excluded is node_modules, as this will cause overwrite error on deploy
   files:
-    - public/**/*
+    - .next/**/*
     - appspec.yml
     - scripts/**/*
     - ver.adoc

@@ -4,7 +4,7 @@ os: linux
 
 files:
   - source: /
-    destination: /var/www/mfe
+    destination: /home/ec2-user/nodeapps/nextjs1
     overwrite: true
 
 permissions:
