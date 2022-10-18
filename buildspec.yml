@@ -7,8 +7,7 @@ phases:
 
     commands:
       # install npm
-      - npm install -g yarn
-      - yarn bin
+      - npm install yarn --location=global
       - yarn
 
   build:
