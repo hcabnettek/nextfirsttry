@@ -10,5 +10,4 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm use --lts
 /home/ec2-user/.nvm/versions/node/v16.18.0/bin/npm install yarn --location=global
-/home/ec2-user/.nvm/versions/node/v16.18.0/bin/yarn build
 /home/ec2-user/.nvm/versions/node/v16.18.0/bin/yarn start
