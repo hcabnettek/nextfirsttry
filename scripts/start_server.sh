@@ -10,4 +10,5 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm use --lts
 /home/ec2-user/.nvm/versions/node/v16.18.0/bin/npm install
+/home/ec2-user/.nvm/versions/node/v16.18.0/bin/npm run build
 /home/ec2-user/.nvm/versions/node/v16.18.0/bin/npm run start
