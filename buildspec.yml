@@ -9,16 +9,10 @@ phases:
     runtime-versions:
       nodejs: 16
 
-    commands:
-      # install npm
-      - npm install yarn --location=global
-      - yarn
-      - yarn add --dev typescript @types/react @types/node
-
   build:
     commands:
       # run build script
-      - yarn build
+      - npm run build
 
   post_build:
     commands:
