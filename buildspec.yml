@@ -13,6 +13,7 @@ phases:
       # install npm
       - npm install yarn --location=global
       - yarn
+      - yarn add --dev typescript @types/react @types/node
 
   build:
     commands:
