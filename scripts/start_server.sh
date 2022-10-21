@@ -4,7 +4,7 @@
 cd /home/ec2-user/nodeapps/nextjs1
 pwd
 
-echo "Starting Application"
+echo "Starting Application 2"
 export NVM_DIR="/home/ec2-user/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
