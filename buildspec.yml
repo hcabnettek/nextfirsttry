@@ -11,24 +11,16 @@ phases:
 
     commands:
       # install npm
-      - npm install
-      - npm install -D typescript @types/node @types/react
 
   build:
     commands:
       # run build script
-      - npm run lint
-      - npm run build
 
   post_build:
     commands:
-      - npx next telemetry disable
 
 artifacts:
   # include all files required to run application
   # notably excluded is node_modules, as this will cause overwrite error on deploy
   files:
-    - .next/**/*
-    - package.json
-    - appspec.yml
-    - scripts/*
+    - "**/*"
