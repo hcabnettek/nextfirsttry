@@ -12,5 +12,4 @@ echo $NVM_DIR
 nvm use --lts
 npm install
 npm run build
-npm run start
 
