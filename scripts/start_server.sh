@@ -12,6 +12,6 @@ export NVM_DIR="/home/ec2-user/.nvm"
 echo $NVM_DIR
 nvm use --lts
 nvm current
-#npm install
-#npm run start
+npm install
+npm run start
 
